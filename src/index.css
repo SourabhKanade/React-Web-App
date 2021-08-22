@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,413;1,600&family=Montserrat:wght@100;400&family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,413;1,600&family=Montserrat:wght@100;300;400&family=Orbitron:wght@400;500&display=swap');
+
+/* custom colors  */
+body {
+  color: #000000de;
+  margin: 0;
+  font-size: 0.875rem;
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+/*------------------------------- navbar css style starts -------------------------------*/
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  background-color: #d2ede0;
+  padding-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-bg {
+  background-color: var(--bgcolor);
+  padding: 2rem 0;
+  z-index: 99;
+  position: relative;
+}
+.navbar-nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  left: 2%;
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+}
+
+.navbar li {
+  padding: 0 1rem;
+}
+
+.navbar li a {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+}
+
+.navbar li a:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+
+/* .navbar-collapse {
+  left: 8%;
+  position: relative;
+} */
+
+.btn-style {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #6b5bd6;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+/*------------------------------- Header CSS Style Starts -------------------------------*/
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 47rem;
+}
+.prog1-img .prog2-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.display-2 {
+  font-size: 4.95rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+.display-bottom {
+  margin-bottom: 0.35em;
+}
+
+.main-hero-title {
+  font-size: 2.725rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.00735em;
+}
+
+.main-hero-para {
+  font-size: 19px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.social-links {
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-right: 1em;
+  border-spacing: 10px;
+  /* position:relative;
+  top:0%; */
+}
+.Icons {
+  margin-bottom: 1.5rem !important;
+}
+
+.root-icon {
+  color: inherit;
+}
+.MuiButtonBase-root {
+  color: inherit;
+  /* border: 0; */
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  /* background-color: #0000; */
+  -webkit-appearance: none;
+  /* -webkit-tap-highlight-color: #0000; */
+}
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  /* color: #0000008a; */
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.button-icon {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+/* .button-icon {
+  font-size: 2.1875rem;
+} */
+
+.Icon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.Icon-fontSizeLarge {
+  font-size: 3.1875rem;
+}
+/*---LEFT SIDE ENDS----*/
+
+.img-fluid {
+  max-width: 90%;
+}
+.MuiButtonBase-root {
+  color: #fff;
+  background-color: #ff1744;
+}
+.jss310 {
+  width: 40em;
+  margin-top: 6em;
+  margin-right: 70px;
+  border-radius: 10px;
+  border: solid;
+}
+.jss310:hover {
+  color: rgb(222, 222, 240);
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -41px;
+  font-size: 16px;
+  margin-top: 9px;
+  margin-right: 8px;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 10em;
+  height: 6em;
+  display: inline-block;
+  font-size: 0.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* ------------------------------- responsive media queries  -------------------------------*/
+
+/* @media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+} */
+
+@media (min-width: 600px) {
+  .Container .main-hero-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 960px) {
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+}
+/* @media (min-width: 960px) {
+  .col-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+} */
