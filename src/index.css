@@ -235,7 +235,7 @@ h6 {
 
 .Icon-root {
   fill: currentColor;
-  width: 1em;
+  width: 2em;
   height: 1em;
   display: inline-block;
   font-size: 1.5rem;
@@ -253,7 +253,7 @@ h6 {
 }
 .MuiButtonBase-root {
   color: #fff;
-  background-color: #ff1744;
+  background-color: #f04d6e;
 }
 .jss310 {
   width: 40em;
@@ -302,7 +302,31 @@ h6 {
   border-radius: inherit;
   pointer-events: none;
 }
-
+.scroldo {
+  text-align: center;
+}
+.button-icon {
+  text-align: center;
+}
+/* .jss305 {
+  bottom: -27px;
+  position: relative; 
+}*/
+.Arrow-down {
+  height: 1em;
+    position: relative;
+    text-align: center;
+}
+.jss305 {
+  bottom: 2px;
+  position: relative;
+}
+.Icon:hover {
+  background-color: #f5eded;
+  border-radius: 20px;
+  cursor: pointer;
+  /* background-color: var(--primary-color); */
+}
 /* ------------------------------- responsive media queries  -------------------------------*/
 
 /* @media (min-width: 1500px) {
